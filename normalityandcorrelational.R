@@ -27,3 +27,5 @@ fertilizer_data_New <- read.csv("fertilizer_data_New.csv")
 fertilizer_data_New
 ### attach the fertilizer_data_New dataset
 attach(fertilizer_data_New)
+### View the data of new dataset
+View(fertilizer_data_New)
