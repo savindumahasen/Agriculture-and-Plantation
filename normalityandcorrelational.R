@@ -15,5 +15,5 @@ fertilizer_data[!complete.cases(fertilizer_data),]
 ### Preparing the data sets( we calles as data preprocessing)
 install.packages('plyr')
 library('plyr')
-fertilizer_datas$Cr <- revalue(rank, c(Prof=3,AsstProf=1,AssocProf=2))
-write.csv(Salaries,"Salaries_New.csv")
+fertilizer_datas$Crop_Yield <- revalue(Crop_Yield, c(Wheat=7,Rice=6,Corn=5,Soybean=4, Barley=3, Oats=2,Potato=1))
+write.csv(fertilizer_data,"fertilizer_data_New.csv")
