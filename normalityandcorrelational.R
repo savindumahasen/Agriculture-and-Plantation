@@ -297,7 +297,80 @@ curve(dnorm(x, mean=mean(Temperature, na.rm=TRUE),
 ### quantile plot for Temerature
 with(fertilizer_data_New, qqPlot(Temperature, dist="norm", id=list(method="y", n=2, 
                   labels=rownames(fertilizer_data_New)), xlab="Temperature Category", 
-                  ylab="Temperature", main="Temperature Distributionn"))
+                  ylab="Temperature", main="Temperature Distribution"))
 
 
+### correlational analysis
+### Spearman method  for Crop_Yield and Crop_Type###
+cor.test(Crop_Yield,Crop_Type, method="spearman",alternative="two.sided")
+
+### graphical analysis between Crop_Yield and Crop_Type
+scatterplot(Crop_Yield~Crop_Type, regLine=TRUE, smooth=FALSE, boxplots=FALSE, 
+            xlab="Crop_Type", ylab="Crop_Yield", main="Crop_Yield vs Crop_Type", 
+            data=fertilizer_data_New)
+### Spearman method  for Crop_Yield and Fertilizer_Amount###
+cor.test(Crop_Yield,Fertilizer_Amount, method="spearman",alternative="two.sided")
+### graphical analysis between Crop_Yield and Fertilizer_Amount
+scatterplot(Crop_Yield~Fertilizer_Amount, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Fertilize_Amount", ylab="Crop_Yield", 
+            main="Crop_Yield vs Fertilize_Amount", data=fertilizer_data_New)
+### Spearman method  for Crop_Yield and Potassium_Level###
+cor.test(Crop_Yield,Potassium_Level, method="spearman",alternative="two.sided")
+###graphical analysis  between Crop_Yield and Potassium_Level
+scatterplot(Crop_Yield~Potassium_Level, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Potassium_Level", ylab="Crop_Yield", 
+            main="Crop_Yield vs Potassium_Level", data=fertilizer_data_New)
+
+### Spearman method for Crop_Yield and Phosphorus_Level
+cor.test(Crop_Yield,Phosphorus_Level, method="spearman", alternative = "two.sided")
+### graphical analysis  between Crop_Yield and Phosphorus_Level
+scatterplot(Crop_Yield~Phosphorus_Level, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Phosphorus_Level", ylab="Crop_Yield", 
+            main="Crop_Yield vs Phosphorus_Level", data=fertilizer_data_New)
+
+### Spearman method for Crop_Yield and Nitrogen_Level
+cor.test(Crop_Yield,Nitrogen_Level, method="spearman", alternative = "two.sided")
+
+### graphical analysis  between Crop_Yield and Nitrogen_Level
+scatterplot(Crop_Yield~Nitrogen_Level, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Nitrogen_Level", ylab="Crop_Yield", 
+            main="Crop_Yield vs Nitrogen_Level", data=fertilizer_data_New)
+
+### Spearman method for Crop_Yield and Soil_Moisture
+cor.test(Crop_Yield,Soil_Moisture, method="spearman", alternative = "two.sided")
+### graphical analysis  between Crop_Yield and Nitrogen_Level
+scatterplot(Crop_Yield~Soil_Moisture, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Soil_Moisture", ylab="Crop_Yield", 
+            main="Crop_Yield vs Soil_Moisture", data=fertilizer_data_New)
+
+
+### Spearman method for Crop_Yield and Soil_pH
+cor.test(Crop_Yield,Soil_pH, method="spearman", alternative = "two.sided")
+### graphical analysis  between Crop_Yield and Soil_pH
+scatterplot(Crop_Yield~Soil_pH, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Soil_pH", ylab="Crop_Yield", 
+            main="Crop_Yield vs Soil_pH", data=fertilizer_data_New)
+
+
+### Spearman method for Crop_Yield and Rainfall
+cor.test(Crop_Yield,Rainfall, method="spearman", alternative = "two.sided")
+### graphical analysis  between Crop_Yield and Rainfall
+scatterplot(Crop_Yield~Rainfall, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Rainfall", ylab="Crop_Yield", 
+            main="Crop_Yield vs Rainfall", data=fertilizer_data_New)
+
+
+### Spearman method for Crop_Yield and Humidity
+cor.test(Crop_Yield,Humidity, method="spearman", alternative = "two.sided")
+### graphical analysis  between Crop_Yield and Rainfall
+scatterplot(Crop_Yield~Humidity, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Rainfall", ylab="Crop_Yield", 
+            main="Crop_Yield vs Humidity", data=fertilizer_data_New)
+
+### Spearman method for Crop_Yield and Humidity
+cor.test(Crop_Yield,Temperature, method="spearman", alternative = "two.sided")
+### graphical analysis  between Crop_Yield and Rainfall
+scatterplot(Crop_Yield~Temperature, regLine=TRUE, smooth=FALSE, 
+            boxplots=FALSE, xlab="Temperature", ylab="Crop_Yield", 
+            main="Crop_Yield vs Temperature", data=fertilizer_data_New)
 
