@@ -22,6 +22,8 @@ write.csv(fertilizer_data,"fertilizer_data_New.csv")
 
 ### detach the fertilizer_data dataset
 detach(fertilizer_data)
+
+
 ### import the fertilizer_data_New dataset
 fertilizer_data_New <- read.csv("fertilizer_data_New.csv")
 fertilizer_data_New
@@ -34,7 +36,8 @@ View(fertilizer_data_New)
 ### Normality testing
 ## import the nortest package
 install.packages("nortest")
+
 ## call the library
 library("nortest")
-### Anderson darling testing
+### Anderson darling testing for crop type
 ad.test(Crop_Type)
