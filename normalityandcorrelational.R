@@ -83,9 +83,6 @@ curve(dnorm(x, mean=mean(Crop_Type, na.rm=TRUE),
 summary(Crop_Type)
 
 
-### Density  curve
-###  it describes the which  side the data distribution  is avialabe
-lines(density(Crop_Type), col="red")
 
 ### Quantile comparison plot
 library('Rcmdr')
@@ -373,4 +370,6 @@ cor.test(Crop_Yield,Temperature, method="spearman", alternative = "two.sided")
 scatterplot(Crop_Yield~Temperature, regLine=TRUE, smooth=FALSE, 
             boxplots=FALSE, xlab="Temperature", ylab="Crop_Yield", 
             main="Crop_Yield vs Temperature", data=fertilizer_data_New)
+### Regression Analysis
+
 
