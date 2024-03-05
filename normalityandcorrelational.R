@@ -370,6 +370,58 @@ cor.test(Crop_Yield,Temperature, method="spearman", alternative = "two.sided")
 scatterplot(Crop_Yield~Temperature, regLine=TRUE, smooth=FALSE, 
             boxplots=FALSE, xlab="Temperature", ylab="Crop_Yield", 
             main="Crop_Yield vs Temperature", data=fertilizer_data_New)
-### Regression Analysis
+
+###  Simple Regression Analysis
+# dependent variable : Crop_Yield
+# independent variable : Fertilizer_Amount
+cropyield_fertilizeramount_model <- lm(Crop_Yield~Fertilizer_Amount, model = TRUE)
+cropyield_fertilizeramount_model 
+
+y=mx+c
+y=0.9944x+7.9787
+### summary  statisitcs of cropyield_fertilizeramount_model
+summary(cropyield_fertilizeramount_model)
+
+# dependent variable : Crop_Yield
+# independent variable : Potassium_Level
+cropyield_potassium_model <- lm(Crop_Yield~Potassium_Level, model=TRUE)
+cropyield_potassium_model
+
+### summary statistics of cropyield_potassium_level
+summary(cropyield_potassium_model)
+
+# dependent variable : Crop_Yield
+# independent variable : Phosphorus_Level
+cropyield_phosphorus_model <- lm(Crop_Yield~Phosphorus_Level, model=TRUE)
+cropyield_phosphorus_model
+
+### summary statistics of cropyield_phosphorus_level
+summary(cropyield_phosphorus_model)
+
+# dependent variable : Crop_Yield
+# independent variable : Nitrogen_Level
+cropyield_nitrogen_model <- lm(Crop_Yield~Nitrogen_Level, model=TRUE)
+cropyield_nitrogen_model
+
+### summary statistics of cropyield_nitrogen_level
+summary(cropyield_nitrogen_model)
+
+# dependent variable : Crop_Yield
+# independent variable : Soil_Moisture
+cropyield_soil_moisture_model <- lm(Crop_Yield~Soil_Moisture, model=TRUE)
+cropyield_soil_moisture_model
+
+### summary statistics of cropyield_sil_moisture_level
+summary(cropyield_soil_moisture_model)
 
 
+# dependent variable : Crop_Yield
+# independent variable : Soil_pH
+cropyield_soil_pH_model <- lm(Crop_Yield~Soil_pH, model=TRUE)
+cropyield_soil_pH_model
+
+### summary statistics of cropyield_soil_pH_level
+summary(cropyield_soil_pH_model)
+
+#cor.test(Crop_Type,Temperature, method="spearman", sided="two.alternative");
+#cor.test(Phosphorus_Level, Potassium_Level, method="spearman", sided="two.sided")
