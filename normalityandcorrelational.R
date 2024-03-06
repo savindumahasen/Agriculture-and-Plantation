@@ -359,14 +359,15 @@ scatterplot(Crop_Yield~Rainfall, regLine=TRUE, smooth=FALSE,
 
 ### Spearman method for Crop_Yield and Humidity
 cor.test(Crop_Yield,Humidity, method="spearman", alternative = "two.sided")
-### graphical analysis  between Crop_Yield and Rainfall
+### graphical analysis  between Crop_Yield and Humidity
 scatterplot(Crop_Yield~Humidity, regLine=TRUE, smooth=FALSE, 
-            boxplots=FALSE, xlab="Rainfall", ylab="Crop_Yield", 
+            boxplots=FALSE, xlab="Humidity", ylab="Crop_Yield", 
             main="Crop_Yield vs Humidity", data=fertilizer_data_New)
 
-### Spearman method for Crop_Yield and Humidity
+### Spearman method for Crop_Yield and Temperature
 cor.test(Crop_Yield,Temperature, method="spearman", alternative = "two.sided")
 ### graphical analysis  between Crop_Yield and Rainfall
+library('Rcmdr')
 scatterplot(Crop_Yield~Temperature, regLine=TRUE, smooth=FALSE, 
             boxplots=FALSE, xlab="Temperature", ylab="Crop_Yield", 
             main="Crop_Yield vs Temperature", data=fertilizer_data_New)
@@ -377,8 +378,6 @@ scatterplot(Crop_Yield~Temperature, regLine=TRUE, smooth=FALSE,
 cropyield_fertilizeramount_model <- lm(Crop_Yield~Fertilizer_Amount, model = TRUE)
 cropyield_fertilizeramount_model 
 
-y=mx+c
-y=0.9944x+7.9787
 ### summary  statisitcs of cropyield_fertilizeramount_model
 summary(cropyield_fertilizeramount_model)
 
@@ -423,5 +422,53 @@ cropyield_soil_pH_model
 ### summary statistics of cropyield_soil_pH_level
 summary(cropyield_soil_pH_model)
 
-#cor.test(Crop_Type,Temperature, method="spearman", sided="two.alternative");
-#cor.test(Phosphorus_Level, Potassium_Level, method="spearman", sided="two.sided")
+
+
+# dependent variable : Crop_Yield
+# independent variable :Rainfall
+cropyield_rainfall_model <- lm(Crop_Yield~Rainfall, model=TRUE)
+cropyield_rainfall_model
+
+### summary statistics of cropyield_rainfall_model
+summary(cropyield_rainfall_model)
+
+
+
+# dependent variable : Crop_Yield
+# independent variable :Humidity
+cropyield_humidity_model <- lm(Crop_Yield~Humidity, model=TRUE)
+cropyield_humidity_model
+
+### summary statistics of cropyield_humidity_model
+summary(cropyield_humidity_model)
+
+
+
+
+# dependent variable : Crop_Yield
+# independent variable :Temperature
+cropyield_temperature_model <- lm(Crop_Yield~Temperature, model=TRUE)
+cropyield_temperature_model
+
+### summary statistics of cropyield_temperature_level
+summary(cropyield_temperature_model)
+
+### Multi-Linear Regression analysis
+cropyield_multi_linear_model <- lm(Crop_Yield~Fertilizer_Amount+
+                                     Potassium_Level+Phosphorus_Level+
+                                     Nitrogen_Level+Soil_Moisture+
+                                     Soil_pH+Rainfall+
+                                     Humidity+Temperature, model=TRUE)
+cropyield_multi_linear_model
+
+### summary statistics of cropyield_multi_lineaar_model
+summary(cropyield_multi_linear_model)
+
+### graphical analysis for multilinear model
+scatterplotMatrix(~Crop_Yield+Fertilizer_Amount+Humidity+Nitrogen_Level+Phosphorus_Level+Potassium_Level+Rainfall+Soil_Moisture+Soil_pH+Temperature,
+                  regLine=TRUE, smooth=FALSE, diagonal=list(method="density"), 
+                  data=fertilizer_data_New)
+
+
+#Multi-corrlinearity effect
+cor.test(Phosphorus_Level, Potassium_Level, method="spearman", sided="two.sided")
