@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="institues_and_centers_of_agriculture" id="institues_and_centers_of_agriculture">
+	<SimpleField name="descriptio" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>institues_and_centers_of_agriculture</name>
+  <Placemark>
+	<name>RDDI</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is Rice Research and Development Institute</SimpleData>
+		<SimpleData name="Longitude">802673.00</SimpleData>
+		<SimpleData name="Latitude">73153.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.4353808595008,7.53151389329528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPMDC</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is Speed and Planting Material Development Center</SimpleData>
+		<SimpleData name="Longitude">803551.67</SimpleData>
+		<SimpleData name="Latitude">71546.78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.5976861405277,7.26299444907145,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FCRDI</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is Field Crops Research and Development Instittue</SimpleData>
+		<SimpleData name="Longitude">80281.00</SimpleData>
+		<SimpleData name="Latitude">8641.48</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.4669444741581,8.11152222605557,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SCPPC</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is Seed Certification and Plant Protection Center</SimpleData>
+		<SimpleData name="Longitude">803559.31</SimpleData>
+		<SimpleData name="Latitude">71631.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.599808362742,7.27548889350315,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HCRDI</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is Horicultural Crops Research and Development Institute</SimpleData>
+		<SimpleData name="Longitude">80369.45</SimpleData>
+		<SimpleData name="Latitude">71625.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.6026250294005,7.27365556017088,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FRDI</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is a Fruit Research and Development Institute</SimpleData>
+		<SimpleData name="Longitude">80332.09</SimpleData>
+		<SimpleData name="Latitude">64510.20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.0589139200158,6.75283333861169,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NRMC</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is Natural Resource Management Center</SimpleData>
+		<SimpleData name="Longitude">803551.36</SimpleData>
+		<SimpleData name="Latitude">71543.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.597600029417,7.2619888935169,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SEPC</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is Socio Economic and Planting Center</SimpleData>
+		<SimpleData name="Longitude">803547.59</SimpleData>
+		<SimpleData name="Latitude">71543.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.596552807198,7.26136389351778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ETC</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is a Extension and Training Center</SimpleData>
+		<SimpleData name="Longitude">803546.14</SimpleData>
+		<SimpleData name="Latitude">71545.73</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.5961500294212,7.26270278240547,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NAICC</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This is a National Agriculture Information and Communication Center</SimpleData>
+		<SimpleData name="Longitude">803549.77</SimpleData>
+		<SimpleData name="Latitude">71634.02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.5971583627498,7.276116671281,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PMEU</name>
+	<ExtendedData><SchemaData schemaUrl="#institues_and_centers_of_agriculture">
+		<SimpleData name="descriptio">This Progress Monitoring and Evaluation Unit</SimpleData>
+		<SimpleData name="Longitude">803544.92</SimpleData>
+		<SimpleData name="Latitude">71543.19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.5958111405334,7.26199722685069,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

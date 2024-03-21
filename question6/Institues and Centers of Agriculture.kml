@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Institues and Centers of Agriculture.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Institues and Centers of Agriculture</name>
+		<open>1</open>
+		<Placemark>
+			<name>RDDI</name>
+			<description>This is Rice Research and Development Institute</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:45:07.228666599Z</begin>
+					<end>2024-03-19T05:45:07.428669599Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.43538012294323</longitude>
+				<latitude>7.531545764212447</latitude>
+				<altitude>0</altitude>
+				<heading>0.01550889919411338</heading>
+				<tilt>30.00031742079301</tilt>
+				<range>70.85581946727633</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.4353808296317,7.531513888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPMDC</name>
+			<description>This is Speed and Planting Material Development Center</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:55:45.393041899Z</begin>
+					<end>2024-03-19T05:55:45.593044799Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.59764254004354</longitude>
+				<latitude>7.26321599793554</latitude>
+				<altitude>0</altitude>
+				<heading>-7.005518483666645e-06</heading>
+				<tilt>30.00039036835186</tilt>
+				<range>86.606270186244</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.5976861111111,7.262994444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FCRDI</name>
+			<description>This is Field Crops Research and Development Instittue</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:29.419823899Z</begin>
+					<end>2024-03-19T05:57:29.619835199Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.46686042921588</longitude>
+				<latitude>8.112083324615192</latitude>
+				<altitude>0</altitude>
+				<heading>0.000580618630496982</heading>
+				<tilt>30.00066481299644</tilt>
+				<range>147.9003117041368</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.46694444444445,8.111522222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCPPC</name>
+			<description>This is Seed Certification and Plant Protection Center</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.59899437250557</longitude>
+				<latitude>7.277373839191663</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002174874335733694</heading>
+				<tilt>42.14480984066493</tilt>
+				<range>589.1662722819008</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.59980833333333,7.275488888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HCRDI</name>
+			<description>This is Horicultural Crops Research and Development Institute</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.60254185204336</longitude>
+				<latitude>7.275231263793931</latitude>
+				<altitude>0</altitude>
+				<heading>-9.694492972607454e-06</heading>
+				<tilt>26.21252538830793</tilt>
+				<range>532.1767155832283</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.60262499999999,7.273655555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FRDI</name>
+			<description>This is a Fruit Research and Development Institute</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.05891429988955</longitude>
+				<latitude>6.752832799749414</latitude>
+				<altitude>0</altitude>
+				<heading>-1.299475250512197e-11</heading>
+				<tilt>0</tilt>
+				<range>1000.000051441138</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.05891388888888,6.752833333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NRMC</name>
+			<description>This is Natural Resource Management Center</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.59752990002225</longitude>
+				<latitude>7.262181300273205</latitude>
+				<altitude>0</altitude>
+				<heading>2.829500958496981e-12</heading>
+				<tilt>0</tilt>
+				<range>1000.000070199076</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.5976,7.261988888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEPC</name>
+			<description>This is Socio Economic and Planting Center</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.596331499307</longitude>
+				<latitude>7.261310199283204</latitude>
+				<altitude>0</altitude>
+				<heading>-8.759048808082934e-11</heading>
+				<tilt>0</tilt>
+				<range>1000.000009878083</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.59655277777777,7.261363888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ETC</name>
+			<description>This is a Extension and Training Center</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.59567231270519</longitude>
+				<latitude>7.262924358060191</latitude>
+				<altitude>0</altitude>
+				<heading>-6.668528056132922e-06</heading>
+				<tilt>22.06457535940161</tilt>
+				<range>236.5216396069543</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.59614999999999,7.262702777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NAICC</name>
+			<description>This is a National Agriculture Information and Communication Center</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.59712892038115</longitude>
+				<latitude>7.277692629480185</latitude>
+				<altitude>0</altitude>
+				<heading>-7.406098234312577e-05</heading>
+				<tilt>33.76369975895479</tilt>
+				<range>446.9405126166947</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.59715833333333,7.276116666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMEU</name>
+			<description>This Progress Monitoring and Evaluation Unit</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2024-03-19T05:57:24.645526399Z</begin>
+					<end>2024-03-19T05:57:24.845530999Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>80.5957432353876</longitude>
+				<latitude>7.262178227320864</latitude>
+				<altitude>0</altitude>
+				<heading>3.641956591182742e-06</heading>
+				<tilt>27.44533682988495</tilt>
+				<range>170.3338053125194</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.5958111111111,7.261997222222223,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
